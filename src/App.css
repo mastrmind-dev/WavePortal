@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+body{
+  background:url("https://i.pinimg.com/736x/4d/45/60/4d45607d2b9d633e5af5cbd7d3d2c71b--waves-logo-logo-wave.jpg");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dataContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 600px;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background-color: tomato;
+  color: blue;
+  font-weight: bolder;
+  font-size: large;
 }
